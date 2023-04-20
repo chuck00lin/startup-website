@@ -59,6 +59,7 @@ const config: GatsbyConfig = {
         openAnalyzer: false,
       },
     },
+    'gatsby-plugin-react-helmet',
   ].filter(Boolean) as Array<PluginRef>,
 }
 
